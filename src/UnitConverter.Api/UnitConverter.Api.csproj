@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <RootNamespace>UnitConverter.Api</RootNamespace>
+    <AssemblyName>UnitConverter.Api</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FastEndpoints" />
+    <PackageReference Include="FastEndpoints.Swagger" />
+    <PackageReference Include="MediatR" />
+    <PackageReference Include="FluentValidation" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UnitConverter.Application\UnitConverter.Application.csproj" />
+    <ProjectReference Include="..\UnitConverter.Infrastructure\UnitConverter.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

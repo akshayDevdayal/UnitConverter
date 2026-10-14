@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>UnitConverter.Infrastructure</RootNamespace>
+    <AssemblyName>UnitConverter.Infrastructure</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UnitConverter.Application\UnitConverter.Application.csproj" />
+    <ProjectReference Include="..\UnitConverter.Domain\UnitConverter.Domain.csproj" />
+  </ItemGroup>
+</Project>
